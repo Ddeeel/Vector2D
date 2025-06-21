@@ -19,20 +19,18 @@
 ## Приклад використання
 
 ```python
-from vector2d import Vector2D
-
 v1 = Vector2D(3, 4)
-v2 = Vector2D(1, 2)
+    v2 = Vector2D(1, 2)
 
-print(f"Вектор v1: {v1}")                         # (3, 4)
-print(f"Вектор v2: {v2}")                         # (1, 2)
-print(f"Сума: {v1 + v2}")                         # (4, 6)
-print(f"Різниця: {v1 - v2}")                      # (2, 2)
-print(f"Множення на 2: {v1 * 2}")                 # (6, 8)
-print(f"Довжина v1: {v1.length()}")               # 5.0
-print(f"Нормалізований v1: {v1.normalize()}")     # (0.6, 0.8)
-print(f"Скалярний добуток: {v1.dot_product(v2)}") # 11
+    print(f"вектор v1: {v1}")
+    print(f"вектор v2: {v2}")
+    print(f"сума: {v1 + v2}")
+    print(f"різниця: {v1 - v2}")
+    print(f"множення на 2: {v1 * 2}")
+    print(f"довжина v1: {v1.lengt()}")
+    print(f"нормалізований v1: {v1.normalize()}")
+    print(f"скалярний добуток: {v1.dot_product(v2)}")
 
-v3 = Vector2D(3, 4)
-print(f"v1 == v2: {v1 == v2}")                    # False
-print(f"v1 == v3: {v1 == v3}")                    # True
+    v3 = Vector2D(3, 4)
+    print(f"v1 == v2: {v1 == v2}")
+    print(f"v1 == v3: {v1 == v3}")
